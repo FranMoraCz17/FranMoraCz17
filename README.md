@@ -1,26 +1,27 @@
-## Francisco Mora
+<img src="assets/banner.svg" width="100%" alt="Kubernetes, DevOps and backend. Costa Rica.">
 
-Backend and cloud infrastructure, based in Costa Rica.
+I'm a developer in Costa Rica. At Passer Technologies I work on Kubernetes and DevOps, building the platform the company's services are moving onto. Most of the code I've written is backend, in TypeScript, Python and Java, and I'm finishing Systems Engineering at Universidad Nacional.
 
-I build backend services and the infrastructure they run on: APIs in TypeScript, Python and Java with their databases, and the platform underneath with Docker, Kubernetes on AWS and Linux.
+**Now:** Kubernetes (RKE2) on AWS, cluster hardening and automation with Ansible.<br>
+**Learning:** Terraform, CI/CD, observability with Prometheus and Grafana, AI agents for operations.
 
-**Now:** platform and DevOps work at Passer Technologies, building a Kubernetes (RKE2) platform on AWS and getting services ready to move onto it.
+### Stack
 
-**Learning:** Terraform, CI/CD pipelines, observability with Prometheus and Grafana, and the AWS Solutions Architect Associate.
+| Platform | Backend | Data |
+| :-- | :-- | :-- |
+| <img src="https://skillicons.dev/icons?i=linux,docker,kubernetes,aws,ansible,git&perline=6" height="40" alt="Linux, Docker, Kubernetes, AWS, Ansible, Git"> | <img src="https://skillicons.dev/icons?i=ts,nestjs,nodejs,py,fastapi,java&perline=6" height="40" alt="TypeScript, NestJS, Node.js, Python, FastAPI, Java"> | <img src="https://skillicons.dev/icons?i=postgres,mongodb,prisma&perline=3" height="40" alt="PostgreSQL, MongoDB, Prisma"> |
 
-### Selected work
+### Projects
 
-- **[Academic Quality Management](https://github.com/SeguraStward/Gestion_Calidad):** institutional platform in production at Universidad Nacional. I built the teaching workload domain, nine NestJS modules and their Next.js screens.
-- **[Vetify](https://github.com/Vetify-team/Vetify):** shared medical record for pets, owned by the pet's owner and fed by the clinic. Next.js PWA and NestJS API with Prisma and PostgreSQL.
-- **[Planty](https://github.com/FranMoraCz17/planty):** plant identification and health diagnosis from a photo, on a containerized FastAPI service.
-- **[Mae](https://github.com/FranMoraCz17/Tico_Language):** a statically typed programming language with Costa Rican keywords, with its own interpreter, IDE and test suite.
-
-### Tools
-
-**Backend:** TypeScript, NestJS, Python, FastAPI, Java, REST APIs, Jest, pytest
-**Data:** PostgreSQL, MongoDB, Oracle, SQL and PL/SQL, Prisma, Firebase
-**Infrastructure:** Linux, Docker, Kubernetes (RKE2), AWS EC2, Ansible, Git
+| Project | What it is | Built with |
+| :-- | :-- | :-- |
+| [Academic Quality Management](https://github.com/SeguraStward/Gestion_Calidad) | The university's platform for academic directors, in production. I built the teaching workload modules. | NestJS, Next.js, Prisma, MongoDB |
+| [Vetify](https://github.com/Vetify-team/Vetify) | A shared medical record for pets, kept by the owner and the clinic. | Next.js, NestJS, Prisma, PostgreSQL |
+| [Planty](https://github.com/FranMoraCz17/planty) | Identifies a plant and checks its health from a photo. | React Native, FastAPI, Docker |
+| [Mae](https://github.com/FranMoraCz17/Tico_Language) | A small programming language with Costa Rican keywords, interpreter included. | Python, pytest |
 
 ### Contact
 
-[Portfolio](https://franmoracz17.github.io) | [LinkedIn](https://linkedin.com/in/francisco-mora-cz) | franmorac17@gmail.com
+[![Portfolio](https://img.shields.io/badge/Portfolio-franmoracz17.github.io-35E0E8?style=flat-square&labelColor=19162D)](https://franmoracz17.github.io)
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-francisco--mora--cz-35E0E8?style=flat-square&logo=linkedin&logoColor=white&labelColor=19162D)](https://linkedin.com/in/francisco-mora-cz)
+[![Email](https://img.shields.io/badge/Email-franmorac17%40gmail.com-35E0E8?style=flat-square&logo=gmail&logoColor=white&labelColor=19162D)](mailto:franmorac17@gmail.com)

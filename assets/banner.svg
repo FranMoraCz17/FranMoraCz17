@@ -1,0 +1,51 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 300" width="1200" height="300" role="img" aria-label="Kubernetes, DevOps and backend. Costa Rica.">
+  <style>
+    .t1 { font: 700 54px 'Segoe UI', 'Helvetica Neue', Arial, sans-serif; fill: #ECEAF6; letter-spacing: -0.5px; }
+    .t2 { font: 500 22px 'Segoe UI', 'Helvetica Neue', Arial, sans-serif; fill: #A5A2C2; }
+    .t3 { font: 500 18px 'Segoe UI', 'Helvetica Neue', Arial, sans-serif; fill: #35E0E8; }
+    .lbl { font: 500 13px 'Segoe UI', 'Helvetica Neue', Arial, sans-serif; fill: #A5A2C2; }
+    .box { fill: #19162D; }
+    .wire { stroke: #35E0E8; stroke-width: 1.5; fill: none; stroke-dasharray: 6 8; opacity: 0.7; animation: flow 1.8s linear infinite; }
+    .pod { fill: #35E0E8; animation: pulse 3.6s ease-in-out infinite; }
+    .d1 { animation-delay: 0s; } .d2 { animation-delay: 0.45s; } .d3 { animation-delay: 0.9s; }
+    .d4 { animation-delay: 1.35s; } .d5 { animation-delay: 1.8s; } .d6 { animation-delay: 2.25s; }
+    .edge { fill: #FF3D8B; }
+    @keyframes flow { to { stroke-dashoffset: -28; } }
+    @keyframes pulse { 0%, 100% { opacity: 1; } 50% { opacity: 0.35; } }
+    @media (prefers-reduced-motion: reduce) { .wire, .pod { animation: none; } }
+  </style>
+
+  <rect width="1200" height="300" fill="#0E0C1C"/>
+  <g stroke="#35E0E8" stroke-opacity="0.06" stroke-width="1">
+    <path d="M0 50H1200M0 100H1200M0 150H1200M0 200H1200M0 250H1200"/>
+    <path d="M50 0V300M100 0V300M150 0V300M200 0V300M250 0V300M300 0V300M350 0V300M400 0V300M450 0V300M500 0V300M550 0V300M600 0V300M650 0V300M700 0V300M750 0V300M800 0V300M850 0V300M900 0V300M950 0V300M1000 0V300M1050 0V300M1100 0V300M1150 0V300"/>
+  </g>
+  <rect class="edge" x="0" y="0" width="6" height="300"/>
+
+  <text class="t1" x="64" y="126">Kubernetes, DevOps</text>
+  <text class="t1" x="64" y="188">and backend.</text>
+  <text class="t2" x="64" y="236">Costa Rica</text>
+  <text class="t3" x="190" y="236">franmoracz17.github.io</text>
+
+  <!-- entry point -->
+  <path class="wire" d="M926 74 L803 132"/>
+  <path class="wire" d="M926 74 L931 132"/>
+  <path class="wire" d="M926 74 L1059 132"/>
+  <polygon class="box" points="864,40 980,40 988,48 988,74 864,74"/>
+  <text class="lbl" x="926" y="62" text-anchor="middle">ingress</text>
+  <polygon class="box" points="748,132 850,132 858,140 858,240 748,240"/>
+  <text class="lbl" x="764" y="158">node-1</text>
+  <polygon class="box" points="876,132 978,132 986,140 986,240 876,240"/>
+  <text class="lbl" x="892" y="158">node-2</text>
+  <polygon class="box" points="1004,132 1106,132 1114,140 1114,240 1004,240"/>
+  <text class="lbl" x="1020" y="158">node-3</text>
+  <rect class="pod d1" x="764" y="174" width="24" height="24"/>
+  <rect class="pod d4" x="796" y="174" width="24" height="24"/>
+  <rect class="pod d5" x="764" y="206" width="24" height="24"/>
+  <rect class="pod d2" x="892" y="174" width="24" height="24"/>
+  <rect class="pod d5" x="924" y="174" width="24" height="24"/>
+  <rect class="pod d3" x="892" y="206" width="24" height="24"/>
+  <rect class="pod d3" x="1020" y="174" width="24" height="24"/>
+  <rect class="pod d6" x="1052" y="174" width="24" height="24"/>
+  <rect class="pod d1" x="1020" y="206" width="24" height="24"/>
+</svg>
