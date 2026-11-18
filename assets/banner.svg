@@ -1,51 +1,46 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 300" width="1200" height="300" role="img" aria-label="Backend and infrastructure. Systems Engineering, Universidad Nacional de Costa Rica.">
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 220" width="1200" height="220" role="img" aria-label="Fran Mora, FranMoraCz17">
   <style>
-    .t1 { font: 700 54px 'Segoe UI', 'Helvetica Neue', Arial, sans-serif; fill: #ECEAF6; letter-spacing: -0.5px; }
-    .t2 { font: 500 22px 'Segoe UI', 'Helvetica Neue', Arial, sans-serif; fill: #A5A2C2; }
-    .t3 { font: 500 18px 'Segoe UI', 'Helvetica Neue', Arial, sans-serif; fill: #35E0E8; }
-    .lbl { font: 500 13px 'Segoe UI', 'Helvetica Neue', Arial, sans-serif; fill: #A5A2C2; }
+    .name { font: 600 20px 'Segoe UI', 'Helvetica Neue', Arial, sans-serif; fill: #ECEAF6; }
+    .handle { font: 400 14px 'Segoe UI', 'Helvetica Neue', Arial, sans-serif; fill: #A5A2C2; }
+    .lbl { font: 500 12px 'Segoe UI', 'Helvetica Neue', Arial, sans-serif; fill: #A5A2C2; }
     .box { fill: #19162D; }
     .wire { stroke: #35E0E8; stroke-width: 1.5; fill: none; stroke-dasharray: 6 8; opacity: 0.7; animation: flow 1.8s linear infinite; }
     .pod { fill: #35E0E8; animation: pulse 3.6s ease-in-out infinite; }
     .d1 { animation-delay: 0s; } .d2 { animation-delay: 0.45s; } .d3 { animation-delay: 0.9s; }
     .d4 { animation-delay: 1.35s; } .d5 { animation-delay: 1.8s; } .d6 { animation-delay: 2.25s; }
-    .edge { fill: #FF3D8B; }
     @keyframes flow { to { stroke-dashoffset: -28; } }
     @keyframes pulse { 0%, 100% { opacity: 1; } 50% { opacity: 0.35; } }
     @media (prefers-reduced-motion: reduce) { .wire, .pod { animation: none; } }
   </style>
 
-  <rect width="1200" height="300" fill="#0E0C1C"/>
+  <rect width="1200" height="220" fill="#0E0C1C"/>
   <g stroke="#35E0E8" stroke-opacity="0.06" stroke-width="1">
-    <path d="M0 50H1200M0 100H1200M0 150H1200M0 200H1200M0 250H1200"/>
-    <path d="M50 0V300M100 0V300M150 0V300M200 0V300M250 0V300M300 0V300M350 0V300M400 0V300M450 0V300M500 0V300M550 0V300M600 0V300M650 0V300M700 0V300M750 0V300M800 0V300M850 0V300M900 0V300M950 0V300M1000 0V300M1050 0V300M1100 0V300M1150 0V300"/>
+    <path d="M0 40H1200M0 80H1200M0 120H1200M0 160H1200M0 200H1200"/>
+    <path d="M40 0V220M80 0V220M120 0V220M160 0V220M200 0V220M240 0V220M280 0V220M320 0V220M360 0V220M400 0V220M440 0V220M480 0V220M520 0V220M560 0V220M600 0V220M640 0V220M680 0V220M720 0V220M760 0V220M800 0V220M840 0V220M880 0V220M920 0V220M960 0V220M1000 0V220M1040 0V220M1080 0V220M1120 0V220M1160 0V220"/>
   </g>
-  <rect class="edge" x="0" y="0" width="6" height="300"/>
 
-  <text class="t1" x="64" y="110">Backend and</text>
-  <text class="t1" x="64" y="172">infrastructure.</text>
-  <text class="t2" x="64" y="220">Systems Engineering, Universidad Nacional de Costa Rica</text>
-  <text class="t3" x="64" y="254">franmoracz17.github.io</text>
+  <!-- diagram, centered -->
+  <path class="wire" d="M600 62 L472 104"/>
+  <path class="wire" d="M600 62 L600 104"/>
+  <path class="wire" d="M600 62 L728 104"/>
+  <polygon class="box" points="544,32 648,32 656,40 656,62 544,62"/>
+  <text class="lbl" x="600" y="52" text-anchor="middle">requests</text>
 
-  <!-- entry point -->
-  <path class="wire" d="M926 74 L803 132"/>
-  <path class="wire" d="M926 74 L931 132"/>
-  <path class="wire" d="M926 74 L1059 132"/>
-  <polygon class="box" points="864,40 980,40 988,48 988,74 864,74"/>
-  <text class="lbl" x="926" y="62" text-anchor="middle">requests</text>
-  <polygon class="box" points="748,132 850,132 858,140 858,240 748,240"/>
-  <text class="lbl" x="764" y="158">server-1</text>
-  <polygon class="box" points="876,132 978,132 986,140 986,240 876,240"/>
-  <text class="lbl" x="892" y="158">server-2</text>
-  <polygon class="box" points="1004,132 1106,132 1114,140 1114,240 1004,240"/>
-  <text class="lbl" x="1020" y="158">server-3</text>
-  <rect class="pod d1" x="764" y="174" width="24" height="24"/>
-  <rect class="pod d4" x="796" y="174" width="24" height="24"/>
-  <rect class="pod d5" x="764" y="206" width="24" height="24"/>
-  <rect class="pod d2" x="892" y="174" width="24" height="24"/>
-  <rect class="pod d5" x="924" y="174" width="24" height="24"/>
-  <rect class="pod d3" x="892" y="206" width="24" height="24"/>
-  <rect class="pod d3" x="1020" y="174" width="24" height="24"/>
-  <rect class="pod d6" x="1052" y="174" width="24" height="24"/>
-  <rect class="pod d1" x="1020" y="206" width="24" height="24"/>
+  <polygon class="box" points="417,104 519,104 527,112 527,184 417,184"/>
+  <polygon class="box" points="545,104 647,104 655,112 655,184 545,184"/>
+  <polygon class="box" points="673,104 775,104 783,112 783,184 673,184"/>
+
+  <rect class="pod d1" x="431" y="120" width="22" height="22"/>
+  <rect class="pod d4" x="461" y="120" width="22" height="22"/>
+  <rect class="pod d5" x="431" y="150" width="22" height="22"/>
+  <rect class="pod d2" x="559" y="120" width="22" height="22"/>
+  <rect class="pod d5" x="589" y="120" width="22" height="22"/>
+  <rect class="pod d3" x="559" y="150" width="22" height="22"/>
+  <rect class="pod d3" x="687" y="120" width="22" height="22"/>
+  <rect class="pod d6" x="717" y="120" width="22" height="22"/>
+  <rect class="pod d1" x="687" y="150" width="22" height="22"/>
+
+  <!-- signature, small -->
+  <text class="name" x="40" y="182">Fran Mora</text>
+  <text class="handle" x="40" y="202">@FranMoraCz17</text>
 </svg>

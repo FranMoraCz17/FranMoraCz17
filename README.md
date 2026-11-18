@@ -1,4 +1,4 @@
-<img src="assets/banner.svg" width="100%" alt="Backend and infrastructure. Systems Engineering, Universidad Nacional de Costa Rica.">
+<img src="assets/banner.svg" width="100%" alt="Fran Mora, FranMoraCz17">
 
 I'm finishing my degree in Systems Engineering at Universidad Nacional de Costa Rica. I'm doing my professional internship at Passer Technologies, on the infrastructure side of moving the company's services to containers. Most of the code I've written is backend, in TypeScript, Python and Java.
 
