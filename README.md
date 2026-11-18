@@ -1,8 +1,8 @@
-<img src="assets/banner.svg" width="100%" alt="Kubernetes, DevOps and backend. Costa Rica.">
+<img src="assets/banner.svg" width="100%" alt="Backend and infrastructure. Costa Rica.">
 
-I'm a developer in Costa Rica. At Passer Technologies I work on Kubernetes and DevOps, building the platform the company's services are moving onto. Most of the code I've written is backend, in TypeScript, Python and Java, and I'm finishing Systems Engineering at Universidad Nacional.
+I'm a developer in Costa Rica. At Passer Technologies I work on the infrastructure side of moving the company's services to containers. Most of the code I've written is backend, in TypeScript, Python and Java, and I'm finishing Systems Engineering at Universidad Nacional.
 
-**Now:** Kubernetes (RKE2) on AWS, cluster hardening and automation with Ansible.<br>
+**Now:** setting up a container platform on AWS and learning Kubernetes on the job.<br>
 **Learning:** Terraform, CI/CD, observability with Prometheus and Grafana, AI agents for operations.
 
 ### Stack
